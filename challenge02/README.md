@@ -3,9 +3,10 @@ The lights flicker on, and you can see the interior of the ship, along with LARR
 
 What can it be? You've turned the power back on, everything should be back to normal, right? "MODULES NOT ACTIVE!" Modules, what modules? A quick check of the ship's status board reveals an empty array labelled 'modules'.
 
-You flip through the manual to the section labelled 'Modules', where the first page describes a number of available modules. They are stored in memory in the availableModules array. Each module is an object, with four properties:
+You flip through the manual to the section labelled 'Modules', where the first page describes a number of available modules. They are stored in memory in the `availableModules` array. Each module is an object, with four properties:
 
-the name of the module is a string
-the size of the module is an integer
-the enabled and essential properties are booleans
-Start off by finding out how many modules there are. Make a method called countModules to reveal how many modules there are to choose from.
+- the `name` of the module is a string
+- the `size` of the module is an integer
+- the `enabled` and `essential` properties are booleans
+
+Start off by finding out how many modules there are. Make a method called `countModules` to reveal how many modules there are to choose from.
