@@ -8,7 +8,35 @@
 
 This repository is a record of the 2019 21DCC's challenges, and their solutions.
 
+## Global Objects
+
+There are a few objects you're going to be working with and their initial values. This is only a subset of them, to give you a idea of what they look like. You can see below that they're all messed up:
+
+```javascript
+var navigation = {
+  x: -2,
+  y: "Banana",
+  z: "Beep",
+  speed: "raaaaid"
+};
+
+var ship = {
+  powerOn: false,
+  modules: [],
+  antenna: {
+    active: false
+  }
+};
+
+var radio = {
+  frequency: "Kenneth",
+  message: "Bugs are cool.",
+  beacon: false
+};
+```
+
 ## About the 21DCC
+
 From the 21DCC FAQ:
 
 >### What Is The 21-Day Coding Challenge?
