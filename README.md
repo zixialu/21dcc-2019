@@ -15,8 +15,8 @@ There are a few objects you're going to be working with and their initial values
 ```javascript
 var navigation = {
   x: -2,
-  y: "Banana",
-  z: "Beep",
+  y: 4,
+  z: 7,
   speed: "raaaaid"
 };
 
@@ -29,7 +29,11 @@ var ship = {
 };
 
 var radio = {
-  frequency: "Kenneth",
+  range: {
+    low: 88,
+    high: 108,
+  },
+  frequency: 0,
   message: "Bugs are cool.",
   beacon: false
 };
