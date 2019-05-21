@@ -19,3 +19,5 @@ function returnToEarth() {
 
   Object.assign(navigation, { x, y, z });
 }
+
+returnToEarth();
